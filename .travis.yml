@@ -9,7 +9,7 @@ deploy:
   skip_cleanup: true
   github-token: $token
   keep-history: true
-  local_dir: /out/index.html
+  local_dir: ./out
   on:
     branch:
       master
